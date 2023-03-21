@@ -1,0 +1,43 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "https://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg width="800" height="600" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <ellipse stroke="black" stroke-width="1" fill="none" cx="172.5" cy="99.5" rx="30" ry="30"/>
+    <text x="152.5" y="105.5" font-family="Times New Roman" font-size="20">init</text>
+    <ellipse stroke="black" stroke-width="1" fill="none" cx="172.5" cy="99.5" rx="24" ry="24"/>
+    <ellipse stroke="black" stroke-width="1" fill="none" cx="637.5" cy="99.5" rx="30" ry="30"/>
+    <text x="607.5" y="105.5" font-family="Times New Roman" font-size="20">parse1</text>
+    <ellipse stroke="black" stroke-width="1" fill="none" cx="637.5" cy="99.5" rx="24" ry="24"/>
+    <ellipse stroke="black" stroke-width="1" fill="none" cx="637.5" cy="403.5" rx="30" ry="30"/>
+    <text x="607.5" y="409.5" font-family="Times New Roman" font-size="20">parse2</text>
+    <ellipse stroke="black" stroke-width="1" fill="none" cx="637.5" cy="403.5" rx="24" ry="24"/>
+    <ellipse stroke="black" stroke-width="1" fill="none" cx="172.5" cy="403.5" rx="30" ry="30"/>
+    <text x="147.5" y="409.5" font-family="Times New Roman" font-size="20">check</text>
+    <path stroke="black" stroke-width="1" fill="none" d="M 609.797,111.005 A 570.285,570.285 0 0 1 200.203,111.005"/>
+    <polygon fill="black" stroke-width="1" points="609.797,111.005 600.535,109.211 604.127,118.544"/>
+    <text x="335.5" y="170.5" font-family="Times New Roman" font-size="20">ident complete</text>
+    <path stroke="black" stroke-width="1" fill="none" d="M 624.275,72.703 A 22.5,22.5 0 1 1 650.725,72.703"/>
+    <text x="592.5" y="22.5" font-family="Times New Roman" font-size="20">half read</text>
+    <polygon fill="black" stroke-width="1" points="650.725,72.703 659.473,69.17 651.382,63.292"/>
+    <polygon stroke="black" stroke-width="1" points="637.5,129.5 637.5,373.5"/>
+    <polygon fill="black" stroke-width="1" points="637.5,373.5 642.5,365.5 632.5,365.5"/>
+    <text x="492.5" y="257.5" font-family="Times New Roman" font-size="20">read base data</text>
+    <path stroke="black" stroke-width="1" fill="none" d="M 650.725,430.297 A 22.5,22.5 0 1 1 624.275,430.297"/>
+    <text x="592.5" y="492.5" font-family="Times New Roman" font-size="20">half read</text>
+    <polygon fill="black" stroke-width="1" points="624.275,430.297 615.527,433.83 623.618,439.708"/>
+    <polygon stroke="black" stroke-width="1" points="612.39,387.084 197.61,115.916"/>
+    <polygon fill="black" stroke-width="1" points="197.61,115.916 201.57,124.479 207.042,116.109"/>
+    <text x="409.5" y="242.5" font-family="Times New Roman" font-size="20">no mux</text>
+    <polygon stroke="black" stroke-width="1" points="607.5,403.5 202.5,403.5"/>
+    <polygon fill="black" stroke-width="1" points="202.5,403.5 210.5,408.5 210.5,398.5"/>
+    <text x="315.5" y="394.5" font-family="Times New Roman" font-size="20">mux block complete</text>
+    <path stroke="black" stroke-width="1" fill="none" d="M 158.834,376.807 A 304.631,304.631 0 0 1 158.834,126.193"/>
+    <polygon fill="black" stroke-width="1" points="158.834,126.193 150.986,131.428 160.101,135.542"/>
+    <text x="6.5" y="257.5" font-family="Times New Roman" font-size="20">mux complete</text>
+    <path stroke="black" stroke-width="1" fill="none" d="M 199.593,86.626 A 510.384,510.384 0 0 1 610.407,86.626"/>
+    <polygon fill="black" stroke-width="1" points="199.593,86.626 208.928,87.984 204.904,78.83"/>
+    <text x="344.5" y="34.5" font-family="Times New Roman" font-size="20">single parse</text>
+    <path stroke="black" stroke-width="1" fill="none" d="M 185.693,126.431 A 315.265,315.265 0 0 1 185.693,376.569"/>
+    <polygon fill="black" stroke-width="1" points="185.693,126.431 184.277,135.758 193.456,131.791"/>
+    <text x="216.5" y="257.5" font-family="Times New Roman" font-size="20">mux half</text>
+</svg>
